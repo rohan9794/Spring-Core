@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="empBean" class="com.test.demo2.Day1Emp.Employee">
+<property name="name" value="Rohan Bhatia"></property>
+</bean>
+
+<bean id="empBean1" class="com.test.demo2.Day1Emp.Employee">
+<property name="name" value="Kanav Bhatia"></property>
+</bean>
+</beans>

@@ -1,0 +1,20 @@
+package com.test.demo.Day1Helloworld;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
+    	
+    	Training tr1 = (Training)context.getBean("training");
+    	
+    	
+    	
+    	System.out.println(tr1.getName());
+    	
+    }
+}

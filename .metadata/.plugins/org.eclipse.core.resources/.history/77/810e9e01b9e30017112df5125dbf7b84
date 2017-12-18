@@ -1,0 +1,9 @@
+package com.test.demo2.shape.Day1Shape;
+
+public class triangle implements Shape{
+	
+	public void getShape() {
+		System.out.println("This is a triangle");
+	}
+
+}

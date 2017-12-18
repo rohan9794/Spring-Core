@@ -1,0 +1,13 @@
+package config;
+
+import org.springframework.context.annotation.Bean; 
+
+//need to add cglib jar.. create a dependency in the pom.xml
+@Configuration
+public class AppConfig {
+
+	@Bean(name="myShapeBean")
+	public Shape getShape() {
+		return new Triangle();
+	}
+}

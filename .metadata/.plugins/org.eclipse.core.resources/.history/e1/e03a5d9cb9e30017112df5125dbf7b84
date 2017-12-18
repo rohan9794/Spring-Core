@@ -1,0 +1,9 @@
+package BeanPlace;
+
+public class triangle implements Shape{
+	
+	public void getShape() {
+		System.out.println("This is a triangle");
+	}
+
+}

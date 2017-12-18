@@ -1,0 +1,7 @@
+package com.Config;
+
+@Configuration
+@Import({})
+public class MyAppConfig {
+
+}

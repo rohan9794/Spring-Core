@@ -1,0 +1,21 @@
+package com.test.demo2.Day1Emp;
+
+public class Employee {
+
+	private String name;
+	private String id;
+	private String city;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void displayInfo() {
+		System.out.println("The name of the employee is: "+ name);
+	}
+	
+}

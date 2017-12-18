@@ -1,0 +1,7 @@
+package BeanPlace;
+
+public interface Shape {
+
+	public void getShape();
+	public void draw();
+}

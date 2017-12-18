@@ -1,0 +1,44 @@
+1. Spring Introduction
+2. DI or IOC (Inversion of control)
+- xml
+-annotation
+-java configuration
+3. container
+4. which one is better
+5. injection can be done through 2 ways:
+
+-constructor
+-setter
+
+HelloWorlk program
+-----------------
+1. Java class (pojo)
+2. class (Main)
+3. XML (configuration file)
+steps:
+create a new maven project.
+app.java appears automatically containing the main method
+create Spring bean.xml file and initaiate all the proeperties defined in the pojo classes either through constructor or properrties
+place the Spring.xml file outside the packages.. i.e. in the main src folder
+use ApplicationContext and ClassPathXmlApplicationContext 
+
+Maven 
+
+[artifact id = name of project]
+pom.xml - contains all the jar file information
+for spring jar files we have a spring community [or we can go the maven repository also]
+
+
+* BeanFactory and ClassPathXmlApplicationContext are 2 different IOC cotainers used to initiate the beans 
+* if you are using the annotations, then use the AnnotationConfiguartionXmlContext container
+* we can use both xml file as well as annotations in the same project together in a combination
+
+
+
+* there could be multiple cofiguration files in your project. then you can create a final appConfig file which should import 
+the other config files.
+
+* What can a contructor inject
+-primitive and /string values
+-Dependent object
+
